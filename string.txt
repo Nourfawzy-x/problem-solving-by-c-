@@ -1,0 +1,120 @@
+1.Write a function takes string then return the most repeated char
+//#include<iostream>;
+//#include<string>;
+//using namespace std;
+//int counter(string s,char c) {
+//    int count = 0;
+//    for (int i = 0; i <= s.size(); i++) {
+//        if (s[i] == c) {
+//            count++;
+//        }}
+//    return count;
+//}
+//char mostRepeated(string s){
+//    char c = s[0];
+//    int max=0;
+//   for(int i =0;i<s.size();i++){
+//       int count=counter(s,s[i]);
+//       if(count>max){
+//           max=count;
+//           c=s[i];
+//       }
+//   }
+//   if(max==1){
+//       cout<<"all characters repeated only one time"<<endl;
+//       return 1;
+//   }
+//   else{
+//       cout<<"most repeated = ";
+//       return c;
+//   }
+//}
+//
+//int main(){
+//    string s;
+//    cin>>s;
+//    cout<<mostRepeated(s);
+//    return 0;
+//}
+/////////////////////////////////////////////////////////////////////////////////
+2.Write a function receive string and convert it to lowercase
+//#include <cctype>;
+//#include <iostream>;
+//#include <string>;
+//using namespace std;
+//string convert(string s){
+//    char c;string n;
+//    for(int i=0;i<s.size();i++){
+//       c= tolower(s[i]);
+//       n+=c;
+//    }
+//    return n;
+//}
+
+//int main(){
+//    string s;
+//    cin>>s;
+//    cout<<convert(s);
+//    return 0;
+//}
+//
+/////////////////////////////////////////////////////////////
+
+3.Write a function to check all chars are digits or not
+#include<iostream>;
+//#include <string>;
+//using namespace std;
+//int check(string s) {
+//    char c;
+//    for (int i = 0; i < s.size(); i++) {
+//        c = s[i];
+//    }
+//    if(c<='9'&& c>=0){
+//        return true;
+//    }
+//    else{
+//        return false;
+//    }
+//}
+//int main(){
+//    string s;
+//    cin>>s;
+//  cout<< check(s);
+//    return 0;
+//}
+///////////////////////////////////////////////////////////////////////////
+4.Function to reverse int using recursion
+//#include <iostream>;
+//using namespace std;
+//char sum (int i) {
+//    if (i < 10) {
+//        cout<< i;
+//    }
+//    else {
+//        cout<<i%10;
+//        return  sum(i / 10);
+//    }
+//}
+//int main(){
+//    int  i;
+//    cin>>i;
+//    cout<<sum(i);
+//    return 0;
+//}
+/////////////////////////////////////////////////////////////////////////////////////
+5.Function to return the max digit in int
+//#include<iostream>;
+//using namespace std;
+//#include<string>;
+//int main(){
+//   string n;
+//   cin>>n;
+//   char max=0;
+//   for(int i=0;i<n.size();i++) {
+//       if (n[i]> max) {
+//           max = n[i];
+//       }
+//   }
+//   cout<<max<<endl;
+//    return 0;
+//}
